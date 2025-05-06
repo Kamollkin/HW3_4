@@ -33,8 +33,7 @@ class UserDB:
         conn.close()
         return rows
        
-    def list_users(self):
-        self.db.list_users()
+    
 
     if __name__ == '__main__':
        init_db()
